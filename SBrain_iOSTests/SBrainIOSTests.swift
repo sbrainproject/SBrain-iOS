@@ -12,7 +12,8 @@ import XCTest
 class SBrainIOSTests: XCTestCase {
 
     func testExample() {
-
+        let view = RootViewController()
+        view.viewDidLoad()
+        XCTAssertTrue(view.exampleTest)
     }
-
 }
