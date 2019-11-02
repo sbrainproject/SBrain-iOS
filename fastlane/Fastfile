@@ -22,11 +22,11 @@ end
 desc "Runs all the tests"
 lane :test do
   scan(
-    workspace:"SBrain.xcworkspace"
+    workspace:"SBrain.xcworkspace",
     scheme: "SBrainKit"
   )
   scan(
-    workspace:"SBrain.xcworkspace"
+    workspace:"SBrain.xcworkspace",
     scheme: "SBrain_iOS"
   )
 end
