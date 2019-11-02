@@ -1,0 +1,9 @@
+os: osx
+language: objective-c
+osx_image: xcode11.2
+install:
+  - bundle install
+script:
+  - fastlane test
+rvm:
+  - 2.6.5
