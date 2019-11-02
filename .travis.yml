@@ -6,4 +6,4 @@ install:
 script:
   - fastlane test
 rvm:
-  - 2.6.5
+  - 2.3.3
