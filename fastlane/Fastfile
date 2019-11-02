@@ -23,11 +23,11 @@ desc "Runs all the tests"
 lane :test do
   scan(
     workspace:"SBrain.xcworkspace"
-    scheme: "SbrainKit"
+    scheme: "SBrainKit"
   )
   scan(
     workspace:"SBrain.xcworkspace"
-    scheme: "Sbrain_iOS"
+    scheme: "SBrain_iOS"
   )
 end
 desc "Submit a new Beta Build to Apple TestFlight"
