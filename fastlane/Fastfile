@@ -50,22 +50,4 @@ lane :release do
   # frameit
 end
 
-# You can define as many lanes as you want
 
-after_all do |lane|
-  # This block is called, only if the executed lane was successful
-  case lane
-  when :test        
-    slack(
-    message: "All tests passed",
-    success: true
-  )
-  end
-end
-
-error do |lane, exception|
-  slack(
-    message: exception.message,
-    success: false
-  )
-end
