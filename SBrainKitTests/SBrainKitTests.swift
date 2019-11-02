@@ -9,10 +9,12 @@
 import XCTest
 @testable import SBrainKit
 
-class SBraibKitTests: XCTestCase {
+class SBrainKitTests: XCTestCase {
 
     func testExample() {
-        XCTAssertTrue(true)
+        let user = UserProfile(fullName: "test")
+        XCTAssertEqual(user.fullName, "test")
+
     }
 
 }
