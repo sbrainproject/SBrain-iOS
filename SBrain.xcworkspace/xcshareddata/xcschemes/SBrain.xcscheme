@@ -26,7 +26,32 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "YES">
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "98CB822F233548BA00F1BC3F"
+            BuildableName = "SecondBrain.app"
+            BlueprintName = "SBrain"
+            ReferencedContainer = "container:SBrain.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9889BA5E236D0B4E00F9FBA7"
+            BuildableName = "SBrainKit.framework"
+            BlueprintName = "SBrainKit"
+            ReferencedContainer = "container:SBrain.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9889BAA3236D0E0500F9FBA7"
+            BuildableName = "SBrain_iOS.framework"
+            BlueprintName = "SBrain_iOS"
+            ReferencedContainer = "container:SBrain.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
       <Testables>
          <TestableReference
             skipped = "NO">

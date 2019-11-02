@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0769D41909F84D1D6CA5EB03 /* Pods_SBrain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CA7389749A4C934650596F /* Pods_SBrain.framework */; };
+		985945D0236DF3AC0095EEC8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985945CF236DF3AC0095EEC8 /* RootViewController.swift */; };
 		9889BA68236D0B4F00F9FBA7 /* SBrainKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9889BA5F236D0B4E00F9FBA7 /* SBrainKit.framework */; };
 		9889BA71236D0B4F00F9FBA7 /* SBrainKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9889BA61236D0B4F00F9FBA7 /* SBrainKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9889BA74236D0B4F00F9FBA7 /* SBrainKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9889BA5F236D0B4E00F9FBA7 /* SBrainKit.framework */; };
@@ -21,7 +22,7 @@
 		9889BAD3236D22DC00F9FBA7 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9889BAD2236D22DC00F9FBA7 /* MainViewModel.swift */; };
 		9889BAD7236D233000F9FBA7 /* UserSessionDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9889BAD6236D233000F9FBA7 /* UserSessionDataStore.swift */; };
 		9889BAD9236D234A00F9FBA7 /* RemoteUserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9889BAD8236D234A00F9FBA7 /* RemoteUserSession.swift */; };
-		9889BADB236D26EC00F9FBA7 /* SBraibKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9889BADA236D26EC00F9FBA7 /* SBraibKitTests.swift */; };
+		9889BADB236D26EC00F9FBA7 /* SBrainKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9889BADA236D26EC00F9FBA7 /* SBrainKitTests.swift */; };
 		9889BADE236D274600F9FBA7 /* SBrainIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9889BADD236D274600F9FBA7 /* SBrainIOSTests.swift */; };
 		98CB8234233548BA00F1BC3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB8233233548BA00F1BC3F /* AppDelegate.swift */; };
 		98CB823B233548BB00F1BC3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98CB823A233548BB00F1BC3F /* Assets.xcassets */; };
@@ -100,6 +101,7 @@
 		7098BDD54ED53C0A4C9D7C5A /* Pods-SBrainUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBrainUITests.debug.xcconfig"; path = "Target Support Files/Pods-SBrainUITests/Pods-SBrainUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		80155823A6CA02CBC2C2F31C /* Pods-SBrainTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBrainTests.release.xcconfig"; path = "Target Support Files/Pods-SBrainTests/Pods-SBrainTests.release.xcconfig"; sourceTree = "<group>"; };
 		972624B3CE39DADB28EB467C /* Pods-SBrainUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBrainUITests.release.xcconfig"; path = "Target Support Files/Pods-SBrainUITests/Pods-SBrainUITests.release.xcconfig"; sourceTree = "<group>"; };
+		985945CF236DF3AC0095EEC8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		9889BA5F236D0B4E00F9FBA7 /* SBrainKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SBrainKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9889BA61236D0B4F00F9FBA7 /* SBrainKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBrainKit.h; sourceTree = "<group>"; };
 		9889BA62236D0B4F00F9FBA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -115,7 +117,7 @@
 		9889BAD2236D22DC00F9FBA7 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		9889BAD6236D233000F9FBA7 /* UserSessionDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSessionDataStore.swift; sourceTree = "<group>"; };
 		9889BAD8236D234A00F9FBA7 /* RemoteUserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteUserSession.swift; sourceTree = "<group>"; };
-		9889BADA236D26EC00F9FBA7 /* SBraibKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBraibKitTests.swift; sourceTree = "<group>"; };
+		9889BADA236D26EC00F9FBA7 /* SBrainKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBrainKitTests.swift; sourceTree = "<group>"; };
 		9889BADD236D274600F9FBA7 /* SBrainIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBrainIOSTests.swift; sourceTree = "<group>"; };
 		98CB8230233548BA00F1BC3F /* SecondBrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondBrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98CB8233233548BA00F1BC3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -209,7 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				9889BA70236D0B4F00F9FBA7 /* Info.plist */,
-				9889BADA236D26EC00F9FBA7 /* SBraibKitTests.swift */,
+				9889BADA236D26EC00F9FBA7 /* SBrainKitTests.swift */,
 			);
 			path = SBrainKitTests;
 			sourceTree = "<group>";
@@ -219,6 +221,7 @@
 			children = (
 				9889BAA6236D0E0500F9FBA7 /* SBrain_iOS.h */,
 				9889BAA7236D0E0500F9FBA7 /* Info.plist */,
+				985945CF236DF3AC0095EEC8 /* RootViewController.swift */,
 			);
 			path = SBrain_iOS;
 			sourceTree = "<group>";
@@ -280,8 +283,8 @@
 				98CB8232233548BA00F1BC3F /* SBrain */,
 				9889BAA5236D0E0500F9FBA7 /* SBrain_iOS */,
 				9889BA60236D0B4E00F9FBA7 /* SBrainKit */,
-				9889BA6D236D0B4F00F9FBA7 /* SBrainKitTests */,
 				9889BAB2236D0E0600F9FBA7 /* SBrain_iOSTests */,
+				9889BA6D236D0B4F00F9FBA7 /* SBrainKitTests */,
 				98CB8231233548BA00F1BC3F /* Products */,
 				43BBAEC855C89ECAC083953F /* Pods */,
 				D212D138E22B890AF70DED2E /* Frameworks */,
@@ -426,12 +429,12 @@
 			buildConfigurationList = 98CB8258233548BB00F1BC3F /* Build configuration list for PBXNativeTarget "SBrain" */;
 			buildPhases = (
 				A01359E1C615CF4A92D79656 /* [CP] Check Pods Manifest.lock */,
-				9889BAC9236D11A300F9FBA7 /* SwiftLint */,
 				98CB822C233548BA00F1BC3F /* Sources */,
 				98CB822D233548BA00F1BC3F /* Frameworks */,
 				98CB822E233548BA00F1BC3F /* Resources */,
 				AED1C78EA3857BD13EE61654 /* [CP] Embed Pods Frameworks */,
 				9889BA79236D0B4F00F9FBA7 /* Embed Frameworks */,
+				9889BAC9236D11A300F9FBA7 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -465,6 +468,7 @@
 					};
 					9889BAA3236D0E0500F9FBA7 = {
 						CreatedOnToolsVersion = 11.2;
+						LastSwiftMigration = 1120;
 					};
 					9889BAAB236D0E0600F9FBA7 = {
 						CreatedOnToolsVersion = 11.2;
@@ -659,7 +663,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9889BADB236D26EC00F9FBA7 /* SBraibKitTests.swift in Sources */,
+				9889BADB236D26EC00F9FBA7 /* SBrainKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,6 +671,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				985945D0236DF3AC0095EEC8 /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -839,6 +844,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 614D22EC63D2CE1AB300E4CD /* Pods-SBrain_iOS.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -856,6 +862,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sbrainproject.SBrain-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -867,6 +874,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 04208474DB7F350765E768DE /* Pods-SBrain_iOS.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
