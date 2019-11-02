@@ -25,6 +25,12 @@ lane :test do
     workspace:"SBrain.xcworkspace",
     scheme: "SBrain"
   )
+  xcov(
+    workspace: "SBrain.xcworkspace",
+    scheme: "SBrain",
+    minimum_coverage_percentage: 60.0,
+    output_directory: "xcov_output"
+  )
 end
 desc "Submit a new Beta Build to Apple TestFlight"
 desc "This will also make sure the profile is up to date"
