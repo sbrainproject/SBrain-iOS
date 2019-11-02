@@ -3,6 +3,7 @@ language: objective-c
 osx_image: xcode11.2
 install:
   - bundle install
+  - pod install
 script:
   - fastlane test
 rvm:
