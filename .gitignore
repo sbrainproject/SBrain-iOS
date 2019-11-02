@@ -21,6 +21,8 @@ DerivedData
 
 # Bundler
 .bundle
+vendor/
+
 
 # Add this line if you want to avoid checking in source code from Carthage dependencies.
 # Carthage/Checkouts
@@ -36,7 +38,10 @@ DerivedData
 #
 Pods/
 
+
+# Fastlane
 fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 test_output
+xcov_output/
