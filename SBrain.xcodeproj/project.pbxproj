@@ -3,86 +3,175 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0769D41909F84D1D6CA5EB03 /* Pods_SBrain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CA7389749A4C934650596F /* Pods_SBrain.framework */; };
-		64B8B0337CE984634A5952F0 /* Pods_SBrainTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA7F44021B864138FB671B1 /* Pods_SBrainTests.framework */; };
+		985945D0236DF3AC0095EEC8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985945CF236DF3AC0095EEC8 /* RootViewController.swift */; };
+		9889BA68236D0B4F00F9FBA7 /* SBrainKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9889BA5F236D0B4E00F9FBA7 /* SBrainKit.framework */; };
+		9889BA71236D0B4F00F9FBA7 /* SBrainKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9889BA61236D0B4F00F9FBA7 /* SBrainKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9889BA74236D0B4F00F9FBA7 /* SBrainKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9889BA5F236D0B4E00F9FBA7 /* SBrainKit.framework */; };
+		9889BA75236D0B4F00F9FBA7 /* SBrainKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9889BA5F236D0B4E00F9FBA7 /* SBrainKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9889BAAD236D0E0600F9FBA7 /* SBrain_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9889BAA4236D0E0500F9FBA7 /* SBrain_iOS.framework */; };
+		9889BAB6236D0E0600F9FBA7 /* SBrain_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 9889BAA6236D0E0500F9FBA7 /* SBrain_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9889BAB9236D0E0600F9FBA7 /* SBrain_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9889BAA4236D0E0500F9FBA7 /* SBrain_iOS.framework */; };
+		9889BABA236D0E0600F9FBA7 /* SBrain_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9889BAA4236D0E0500F9FBA7 /* SBrain_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9889BAC5236D0FF100F9FBA7 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9889BAC4236D0FF100F9FBA7 /* UserProfile.swift */; };
+		9889BAC7236D10C900F9FBA7 /* NewAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9889BAC6236D10C900F9FBA7 /* NewAccount.swift */; };
+		9889BAD3236D22DC00F9FBA7 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9889BAD2236D22DC00F9FBA7 /* MainViewModel.swift */; };
+		9889BAD7236D233000F9FBA7 /* UserSessionDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9889BAD6236D233000F9FBA7 /* UserSessionDataStore.swift */; };
+		9889BAD9236D234A00F9FBA7 /* RemoteUserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9889BAD8236D234A00F9FBA7 /* RemoteUserSession.swift */; };
+		9889BADB236D26EC00F9FBA7 /* SBrainKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9889BADA236D26EC00F9FBA7 /* SBrainKitTests.swift */; };
+		9889BADE236D274600F9FBA7 /* SBrainIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9889BADD236D274600F9FBA7 /* SBrainIOSTests.swift */; };
 		98CB8234233548BA00F1BC3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB8233233548BA00F1BC3F /* AppDelegate.swift */; };
-		98CB8236233548BA00F1BC3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB8235233548BA00F1BC3F /* ViewController.swift */; };
-		98CB8239233548BA00F1BC3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98CB8237233548BA00F1BC3F /* Main.storyboard */; };
 		98CB823B233548BB00F1BC3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98CB823A233548BB00F1BC3F /* Assets.xcassets */; };
 		98CB823E233548BB00F1BC3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98CB823C233548BB00F1BC3F /* LaunchScreen.storyboard */; };
-		98CB8249233548BB00F1BC3F /* SBrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB8248233548BB00F1BC3F /* SBrainTests.swift */; };
-		98CB8254233548BB00F1BC3F /* SBrainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB8253233548BB00F1BC3F /* SBrainUITests.swift */; };
-		EDE96A710F7CA3C0FDBAB54E /* Pods_SBrainUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF0520AECE63DA62A84DE4A7 /* Pods_SBrainUITests.framework */; };
+		F4A7543A97AFC868767336F2 /* Pods_SBrainKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC71A2BD99D3BA9911372439 /* Pods_SBrainKit.framework */; };
+		F95A8683A1AF96935E1A83E2 /* Pods_SBrain_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528391B1008F120C295BBF6D /* Pods_SBrain_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		98CB8245233548BB00F1BC3F /* PBXContainerItemProxy */ = {
+		9889BA69236D0B4F00F9FBA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98CB8228233548BA00F1BC3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9889BA5E236D0B4E00F9FBA7;
+			remoteInfo = SBrainKit;
+		};
+		9889BA6B236D0B4F00F9FBA7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 98CB8228233548BA00F1BC3F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 98CB822F233548BA00F1BC3F;
 			remoteInfo = SBrain;
 		};
-		98CB8250233548BB00F1BC3F /* PBXContainerItemProxy */ = {
+		9889BA72236D0B4F00F9FBA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98CB8228233548BA00F1BC3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9889BA5E236D0B4E00F9FBA7;
+			remoteInfo = SBrainKit;
+		};
+		9889BAAE236D0E0600F9FBA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98CB8228233548BA00F1BC3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9889BAA3236D0E0500F9FBA7;
+			remoteInfo = SBrain_iOS;
+		};
+		9889BAB0236D0E0600F9FBA7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 98CB8228233548BA00F1BC3F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 98CB822F233548BA00F1BC3F;
 			remoteInfo = SBrain;
+		};
+		9889BAB7236D0E0600F9FBA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98CB8228233548BA00F1BC3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9889BAA3236D0E0500F9FBA7;
+			remoteInfo = SBrain_iOS;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9889BA79236D0B4F00F9FBA7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9889BA75236D0B4F00F9FBA7 /* SBrainKit.framework in Embed Frameworks */,
+				9889BABA236D0E0600F9FBA7 /* SBrain_iOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		04208474DB7F350765E768DE /* Pods-SBrain_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBrain_iOS.release.xcconfig"; path = "Target Support Files/Pods-SBrain_iOS/Pods-SBrain_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		528391B1008F120C295BBF6D /* Pods_SBrain_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SBrain_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E01B796A4C691E027C73A5 /* Pods-SBrain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBrain.release.xcconfig"; path = "Target Support Files/Pods-SBrain/Pods-SBrain.release.xcconfig"; sourceTree = "<group>"; };
+		614D22EC63D2CE1AB300E4CD /* Pods-SBrain_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBrain_iOS.debug.xcconfig"; path = "Target Support Files/Pods-SBrain_iOS/Pods-SBrain_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		6607F0C2C6FE9B8E8410E456 /* Pods-SBrainKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBrainKit.debug.xcconfig"; path = "Target Support Files/Pods-SBrainKit/Pods-SBrainKit.debug.xcconfig"; sourceTree = "<group>"; };
 		6639526A8B619887509662CF /* Pods-SBrainTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBrainTests.debug.xcconfig"; path = "Target Support Files/Pods-SBrainTests/Pods-SBrainTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7098BDD54ED53C0A4C9D7C5A /* Pods-SBrainUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBrainUITests.debug.xcconfig"; path = "Target Support Files/Pods-SBrainUITests/Pods-SBrainUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		80155823A6CA02CBC2C2F31C /* Pods-SBrainTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBrainTests.release.xcconfig"; path = "Target Support Files/Pods-SBrainTests/Pods-SBrainTests.release.xcconfig"; sourceTree = "<group>"; };
 		972624B3CE39DADB28EB467C /* Pods-SBrainUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBrainUITests.release.xcconfig"; path = "Target Support Files/Pods-SBrainUITests/Pods-SBrainUITests.release.xcconfig"; sourceTree = "<group>"; };
-		98CB8230233548BA00F1BC3F /* SBrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		985945CF236DF3AC0095EEC8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		9889BA5F236D0B4E00F9FBA7 /* SBrainKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SBrainKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9889BA61236D0B4F00F9FBA7 /* SBrainKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBrainKit.h; sourceTree = "<group>"; };
+		9889BA62236D0B4F00F9FBA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9889BA67236D0B4F00F9FBA7 /* SBrainKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBrainKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9889BA70236D0B4F00F9FBA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9889BAA4236D0E0500F9FBA7 /* SBrain_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SBrain_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9889BAA6236D0E0500F9FBA7 /* SBrain_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBrain_iOS.h; sourceTree = "<group>"; };
+		9889BAA7236D0E0500F9FBA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9889BAAC236D0E0600F9FBA7 /* SBrain_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBrain_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9889BAB5236D0E0600F9FBA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9889BAC4236D0FF100F9FBA7 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		9889BAC6236D10C900F9FBA7 /* NewAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccount.swift; sourceTree = "<group>"; };
+		9889BAD2236D22DC00F9FBA7 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		9889BAD6236D233000F9FBA7 /* UserSessionDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSessionDataStore.swift; sourceTree = "<group>"; };
+		9889BAD8236D234A00F9FBA7 /* RemoteUserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteUserSession.swift; sourceTree = "<group>"; };
+		9889BADA236D26EC00F9FBA7 /* SBrainKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBrainKitTests.swift; sourceTree = "<group>"; };
+		9889BADD236D274600F9FBA7 /* SBrainIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBrainIOSTests.swift; sourceTree = "<group>"; };
+		98CB8230233548BA00F1BC3F /* SecondBrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondBrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98CB8233233548BA00F1BC3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		98CB8235233548BA00F1BC3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		98CB8238233548BA00F1BC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98CB823A233548BB00F1BC3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98CB823D233548BB00F1BC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98CB823F233548BB00F1BC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		98CB8244233548BB00F1BC3F /* SBrainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBrainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		98CB8248233548BB00F1BC3F /* SBrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBrainTests.swift; sourceTree = "<group>"; };
-		98CB824A233548BB00F1BC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		98CB824F233548BB00F1BC3F /* SBrainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBrainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		98CB8253233548BB00F1BC3F /* SBrainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBrainUITests.swift; sourceTree = "<group>"; };
-		98CB8255233548BB00F1BC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AFD8946CBBCB5A3A32F2CF2 /* Pods-SBrainKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBrainKit.release.xcconfig"; path = "Target Support Files/Pods-SBrainKit/Pods-SBrainKit.release.xcconfig"; sourceTree = "<group>"; };
 		AF0520AECE63DA62A84DE4A7 /* Pods_SBrainUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SBrainUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA7F44021B864138FB671B1 /* Pods_SBrainTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SBrainTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC71A2BD99D3BA9911372439 /* Pods_SBrainKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SBrainKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3CA7389749A4C934650596F /* Pods_SBrain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SBrain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DBDFF6510CAC57BE7CD812 /* Pods-SBrain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBrain.debug.xcconfig"; path = "Target Support Files/Pods-SBrain/Pods-SBrain.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9889BA5C236D0B4E00F9FBA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A7543A97AFC868767336F2 /* Pods_SBrainKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9889BA64236D0B4F00F9FBA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9889BA68236D0B4F00F9FBA7 /* SBrainKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9889BAA1236D0E0500F9FBA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95A8683A1AF96935E1A83E2 /* Pods_SBrain_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9889BAA9236D0E0600F9FBA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9889BAAD236D0E0600F9FBA7 /* SBrain_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		98CB822D233548BA00F1BC3F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9889BA74236D0B4F00F9FBA7 /* SBrainKit.framework in Frameworks */,
 				0769D41909F84D1D6CA5EB03 /* Pods_SBrain.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98CB8241233548BB00F1BC3F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				64B8B0337CE984634A5952F0 /* Pods_SBrainTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98CB824C233548BB00F1BC3F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EDE96A710F7CA3C0FDBAB54E /* Pods_SBrainUITests.framework in Frameworks */,
+				9889BAB9236D0E0600F9FBA7 /* SBrain_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,17 +187,104 @@
 				80155823A6CA02CBC2C2F31C /* Pods-SBrainTests.release.xcconfig */,
 				7098BDD54ED53C0A4C9D7C5A /* Pods-SBrainUITests.debug.xcconfig */,
 				972624B3CE39DADB28EB467C /* Pods-SBrainUITests.release.xcconfig */,
+				6607F0C2C6FE9B8E8410E456 /* Pods-SBrainKit.debug.xcconfig */,
+				9AFD8946CBBCB5A3A32F2CF2 /* Pods-SBrainKit.release.xcconfig */,
+				614D22EC63D2CE1AB300E4CD /* Pods-SBrain_iOS.debug.xcconfig */,
+				04208474DB7F350765E768DE /* Pods-SBrain_iOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		9889BA60236D0B4E00F9FBA7 /* SBrainKit */ = {
+			isa = PBXGroup;
+			children = (
+				9889BAC2236D0EF500F9FBA7 /* ViewModel */,
+				9889BAC1236D0EEE00F9FBA7 /* Model */,
+				9889BAC3236D0F0800F9FBA7 /* Repository */,
+				9889BA61236D0B4F00F9FBA7 /* SBrainKit.h */,
+				9889BA62236D0B4F00F9FBA7 /* Info.plist */,
+			);
+			path = SBrainKit;
+			sourceTree = "<group>";
+		};
+		9889BA6D236D0B4F00F9FBA7 /* SBrainKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				9889BA70236D0B4F00F9FBA7 /* Info.plist */,
+				9889BADA236D26EC00F9FBA7 /* SBrainKitTests.swift */,
+			);
+			path = SBrainKitTests;
+			sourceTree = "<group>";
+		};
+		9889BAA5236D0E0500F9FBA7 /* SBrain_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9889BAA6236D0E0500F9FBA7 /* SBrain_iOS.h */,
+				9889BAA7236D0E0500F9FBA7 /* Info.plist */,
+				985945CF236DF3AC0095EEC8 /* RootViewController.swift */,
+			);
+			path = SBrain_iOS;
+			sourceTree = "<group>";
+		};
+		9889BAB2236D0E0600F9FBA7 /* SBrain_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				9889BAB5236D0E0600F9FBA7 /* Info.plist */,
+				9889BADD236D274600F9FBA7 /* SBrainIOSTests.swift */,
+			);
+			path = SBrain_iOSTests;
+			sourceTree = "<group>";
+		};
+		9889BAC1236D0EEE00F9FBA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9889BAC4236D0FF100F9FBA7 /* UserProfile.swift */,
+				9889BAC6236D10C900F9FBA7 /* NewAccount.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9889BAC2236D0EF500F9FBA7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9889BAD2236D22DC00F9FBA7 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9889BAC3236D0F0800F9FBA7 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				9889BAD5236D230500F9FBA7 /* Persistence */,
+				9889BAD4236D22E300F9FBA7 /* Remote */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		9889BAD4236D22E300F9FBA7 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				9889BAD8236D234A00F9FBA7 /* RemoteUserSession.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		9889BAD5236D230500F9FBA7 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				9889BAD6236D233000F9FBA7 /* UserSessionDataStore.swift */,
+			);
+			path = Persistence;
 			sourceTree = "<group>";
 		};
 		98CB8227233548BA00F1BC3F = {
 			isa = PBXGroup;
 			children = (
 				98CB8232233548BA00F1BC3F /* SBrain */,
-				98CB8247233548BB00F1BC3F /* SBrainTests */,
-				98CB8252233548BB00F1BC3F /* SBrainUITests */,
+				9889BAA5236D0E0500F9FBA7 /* SBrain_iOS */,
+				9889BA60236D0B4E00F9FBA7 /* SBrainKit */,
+				9889BAB2236D0E0600F9FBA7 /* SBrain_iOSTests */,
+				9889BA6D236D0B4F00F9FBA7 /* SBrainKitTests */,
 				98CB8231233548BA00F1BC3F /* Products */,
 				43BBAEC855C89ECAC083953F /* Pods */,
 				D212D138E22B890AF70DED2E /* Frameworks */,
@@ -118,9 +294,11 @@
 		98CB8231233548BA00F1BC3F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				98CB8230233548BA00F1BC3F /* SBrain.app */,
-				98CB8244233548BB00F1BC3F /* SBrainTests.xctest */,
-				98CB824F233548BB00F1BC3F /* SBrainUITests.xctest */,
+				98CB8230233548BA00F1BC3F /* SecondBrain.app */,
+				9889BA5F236D0B4E00F9FBA7 /* SBrainKit.framework */,
+				9889BA67236D0B4F00F9FBA7 /* SBrainKitTests.xctest */,
+				9889BAA4236D0E0500F9FBA7 /* SBrain_iOS.framework */,
+				9889BAAC236D0E0600F9FBA7 /* SBrain_iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,31 +307,11 @@
 			isa = PBXGroup;
 			children = (
 				98CB8233233548BA00F1BC3F /* AppDelegate.swift */,
-				98CB8235233548BA00F1BC3F /* ViewController.swift */,
-				98CB8237233548BA00F1BC3F /* Main.storyboard */,
 				98CB823A233548BB00F1BC3F /* Assets.xcassets */,
 				98CB823C233548BB00F1BC3F /* LaunchScreen.storyboard */,
 				98CB823F233548BB00F1BC3F /* Info.plist */,
 			);
 			path = SBrain;
-			sourceTree = "<group>";
-		};
-		98CB8247233548BB00F1BC3F /* SBrainTests */ = {
-			isa = PBXGroup;
-			children = (
-				98CB8248233548BB00F1BC3F /* SBrainTests.swift */,
-				98CB824A233548BB00F1BC3F /* Info.plist */,
-			);
-			path = SBrainTests;
-			sourceTree = "<group>";
-		};
-		98CB8252233548BB00F1BC3F /* SBrainUITests */ = {
-			isa = PBXGroup;
-			children = (
-				98CB8253233548BB00F1BC3F /* SBrainUITests.swift */,
-				98CB8255233548BB00F1BC3F /* Info.plist */,
-			);
-			path = SBrainUITests;
 			sourceTree = "<group>";
 		};
 		D212D138E22B890AF70DED2E /* Frameworks */ = {
@@ -162,13 +320,110 @@
 				E3CA7389749A4C934650596F /* Pods_SBrain.framework */,
 				CAA7F44021B864138FB671B1 /* Pods_SBrainTests.framework */,
 				AF0520AECE63DA62A84DE4A7 /* Pods_SBrainUITests.framework */,
+				DC71A2BD99D3BA9911372439 /* Pods_SBrainKit.framework */,
+				528391B1008F120C295BBF6D /* Pods_SBrain_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		9889BA5A236D0B4E00F9FBA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9889BA71236D0B4F00F9FBA7 /* SBrainKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9889BA9F236D0E0500F9FBA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9889BAB6236D0E0600F9FBA7 /* SBrain_iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		9889BA5E236D0B4E00F9FBA7 /* SBrainKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9889BA76236D0B4F00F9FBA7 /* Build configuration list for PBXNativeTarget "SBrainKit" */;
+			buildPhases = (
+				B3D8625A0646B5D1972A78D4 /* [CP] Check Pods Manifest.lock */,
+				9889BA5A236D0B4E00F9FBA7 /* Headers */,
+				9889BA5B236D0B4E00F9FBA7 /* Sources */,
+				9889BA5C236D0B4E00F9FBA7 /* Frameworks */,
+				9889BA5D236D0B4E00F9FBA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBrainKit;
+			productName = SBrainKit;
+			productReference = 9889BA5F236D0B4E00F9FBA7 /* SBrainKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9889BA66236D0B4F00F9FBA7 /* SBrainKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9889BA7A236D0B4F00F9FBA7 /* Build configuration list for PBXNativeTarget "SBrainKitTests" */;
+			buildPhases = (
+				9889BA63236D0B4F00F9FBA7 /* Sources */,
+				9889BA64236D0B4F00F9FBA7 /* Frameworks */,
+				9889BA65236D0B4F00F9FBA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9889BA6A236D0B4F00F9FBA7 /* PBXTargetDependency */,
+				9889BA6C236D0B4F00F9FBA7 /* PBXTargetDependency */,
+			);
+			name = SBrainKitTests;
+			productName = SBrainKitTests;
+			productReference = 9889BA67236D0B4F00F9FBA7 /* SBrainKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9889BAA3236D0E0500F9FBA7 /* SBrain_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9889BABB236D0E0600F9FBA7 /* Build configuration list for PBXNativeTarget "SBrain_iOS" */;
+			buildPhases = (
+				6C492BB8C63213B6BA683C9D /* [CP] Check Pods Manifest.lock */,
+				9889BA9F236D0E0500F9FBA7 /* Headers */,
+				9889BAA0236D0E0500F9FBA7 /* Sources */,
+				9889BAA1236D0E0500F9FBA7 /* Frameworks */,
+				9889BAA2236D0E0500F9FBA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBrain_iOS;
+			productName = SBrain_iOS;
+			productReference = 9889BAA4236D0E0500F9FBA7 /* SBrain_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9889BAAB236D0E0600F9FBA7 /* SBrain_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9889BABE236D0E0600F9FBA7 /* Build configuration list for PBXNativeTarget "SBrain_iOSTests" */;
+			buildPhases = (
+				9889BAA8236D0E0600F9FBA7 /* Sources */,
+				9889BAA9236D0E0600F9FBA7 /* Frameworks */,
+				9889BAAA236D0E0600F9FBA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9889BAAF236D0E0600F9FBA7 /* PBXTargetDependency */,
+				9889BAB1236D0E0600F9FBA7 /* PBXTargetDependency */,
+			);
+			name = SBrain_iOSTests;
+			productName = SBrain_iOSTests;
+			productReference = 9889BAAC236D0E0600F9FBA7 /* SBrain_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		98CB822F233548BA00F1BC3F /* SBrain */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98CB8258233548BB00F1BC3F /* Build configuration list for PBXNativeTarget "SBrain" */;
@@ -177,53 +432,20 @@
 				98CB822C233548BA00F1BC3F /* Sources */,
 				98CB822D233548BA00F1BC3F /* Frameworks */,
 				98CB822E233548BA00F1BC3F /* Resources */,
+				AED1C78EA3857BD13EE61654 /* [CP] Embed Pods Frameworks */,
+				9889BA79236D0B4F00F9FBA7 /* Embed Frameworks */,
+				9889BAC9236D11A300F9FBA7 /* SwiftLint */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9889BA73236D0B4F00F9FBA7 /* PBXTargetDependency */,
+				9889BAB8236D0E0600F9FBA7 /* PBXTargetDependency */,
 			);
 			name = SBrain;
 			productName = SBrain;
-			productReference = 98CB8230233548BA00F1BC3F /* SBrain.app */;
+			productReference = 98CB8230233548BA00F1BC3F /* SecondBrain.app */;
 			productType = "com.apple.product-type.application";
-		};
-		98CB8243233548BB00F1BC3F /* SBrainTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 98CB825B233548BB00F1BC3F /* Build configuration list for PBXNativeTarget "SBrainTests" */;
-			buildPhases = (
-				EBD672DB3B73D54C40C9F2D9 /* [CP] Check Pods Manifest.lock */,
-				98CB8240233548BB00F1BC3F /* Sources */,
-				98CB8241233548BB00F1BC3F /* Frameworks */,
-				98CB8242233548BB00F1BC3F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				98CB8246233548BB00F1BC3F /* PBXTargetDependency */,
-			);
-			name = SBrainTests;
-			productName = SBrainTests;
-			productReference = 98CB8244233548BB00F1BC3F /* SBrainTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		98CB824E233548BB00F1BC3F /* SBrainUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 98CB825E233548BB00F1BC3F /* Build configuration list for PBXNativeTarget "SBrainUITests" */;
-			buildPhases = (
-				7F498241235D2B943307EE6B /* [CP] Check Pods Manifest.lock */,
-				98CB824B233548BB00F1BC3F /* Sources */,
-				98CB824C233548BB00F1BC3F /* Frameworks */,
-				98CB824D233548BB00F1BC3F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				98CB8251233548BB00F1BC3F /* PBXTargetDependency */,
-			);
-			name = SBrainUITests;
-			productName = SBrainUITests;
-			productReference = 98CB824F233548BB00F1BC3F /* SBrainUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -231,20 +453,30 @@
 		98CB8228233548BA00F1BC3F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1030;
+				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Second Brain Project";
 				TargetAttributes = {
+					9889BA5E236D0B4E00F9FBA7 = {
+						CreatedOnToolsVersion = 11.2;
+						LastSwiftMigration = 1120;
+					};
+					9889BA66236D0B4F00F9FBA7 = {
+						CreatedOnToolsVersion = 11.2;
+						LastSwiftMigration = 1120;
+						TestTargetID = 98CB822F233548BA00F1BC3F;
+					};
+					9889BAA3236D0E0500F9FBA7 = {
+						CreatedOnToolsVersion = 11.2;
+						LastSwiftMigration = 1120;
+					};
+					9889BAAB236D0E0600F9FBA7 = {
+						CreatedOnToolsVersion = 11.2;
+						LastSwiftMigration = 1120;
+						TestTargetID = 98CB822F233548BA00F1BC3F;
+					};
 					98CB822F233548BA00F1BC3F = {
 						CreatedOnToolsVersion = 10.3;
-					};
-					98CB8243233548BB00F1BC3F = {
-						CreatedOnToolsVersion = 10.3;
-						TestTargetID = 98CB822F233548BA00F1BC3F;
-					};
-					98CB824E233548BB00F1BC3F = {
-						CreatedOnToolsVersion = 10.3;
-						TestTargetID = 98CB822F233548BA00F1BC3F;
 					};
 				};
 			};
@@ -262,41 +494,56 @@
 			projectRoot = "";
 			targets = (
 				98CB822F233548BA00F1BC3F /* SBrain */,
-				98CB8243233548BB00F1BC3F /* SBrainTests */,
-				98CB824E233548BB00F1BC3F /* SBrainUITests */,
+				9889BA5E236D0B4E00F9FBA7 /* SBrainKit */,
+				9889BA66236D0B4F00F9FBA7 /* SBrainKitTests */,
+				9889BAA3236D0E0500F9FBA7 /* SBrain_iOS */,
+				9889BAAB236D0E0600F9FBA7 /* SBrain_iOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9889BA5D236D0B4E00F9FBA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9889BA65236D0B4F00F9FBA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9889BAA2236D0E0500F9FBA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9889BAAA236D0E0600F9FBA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		98CB822E233548BA00F1BC3F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				98CB823E233548BB00F1BC3F /* LaunchScreen.storyboard in Resources */,
 				98CB823B233548BB00F1BC3F /* Assets.xcassets in Resources */,
-				98CB8239233548BA00F1BC3F /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98CB8242233548BB00F1BC3F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98CB824D233548BB00F1BC3F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7F498241235D2B943307EE6B /* [CP] Check Pods Manifest.lock */ = {
+		6C492BB8C63213B6BA683C9D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -311,12 +558,30 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SBrainUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SBrain_iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		9889BAC9236D11A300F9FBA7 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 		A01359E1C615CF4A92D79656 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -340,7 +605,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EBD672DB3B73D54C40C9F2D9 /* [CP] Check Pods Manifest.lock */ = {
+		AED1C78EA3857BD13EE61654 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SBrain/Pods-SBrain-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SBrain/Pods-SBrain-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SBrain/Pods-SBrain-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3D8625A0646B5D1972A78D4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -355,7 +637,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SBrainTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SBrainKit-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -365,55 +647,86 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9889BA5B236D0B4E00F9FBA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9889BAC7236D10C900F9FBA7 /* NewAccount.swift in Sources */,
+				9889BAC5236D0FF100F9FBA7 /* UserProfile.swift in Sources */,
+				9889BAD3236D22DC00F9FBA7 /* MainViewModel.swift in Sources */,
+				9889BAD7236D233000F9FBA7 /* UserSessionDataStore.swift in Sources */,
+				9889BAD9236D234A00F9FBA7 /* RemoteUserSession.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9889BA63236D0B4F00F9FBA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9889BADB236D26EC00F9FBA7 /* SBrainKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9889BAA0236D0E0500F9FBA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985945D0236DF3AC0095EEC8 /* RootViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9889BAA8236D0E0600F9FBA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9889BADE236D274600F9FBA7 /* SBrainIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		98CB822C233548BA00F1BC3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98CB8236233548BA00F1BC3F /* ViewController.swift in Sources */,
 				98CB8234233548BA00F1BC3F /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98CB8240233548BB00F1BC3F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				98CB8249233548BB00F1BC3F /* SBrainTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98CB824B233548BB00F1BC3F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				98CB8254233548BB00F1BC3F /* SBrainUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		98CB8246233548BB00F1BC3F /* PBXTargetDependency */ = {
+		9889BA6A236D0B4F00F9FBA7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 98CB822F233548BA00F1BC3F /* SBrain */;
-			targetProxy = 98CB8245233548BB00F1BC3F /* PBXContainerItemProxy */;
+			target = 9889BA5E236D0B4E00F9FBA7 /* SBrainKit */;
+			targetProxy = 9889BA69236D0B4F00F9FBA7 /* PBXContainerItemProxy */;
 		};
-		98CB8251233548BB00F1BC3F /* PBXTargetDependency */ = {
+		9889BA6C236D0B4F00F9FBA7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 98CB822F233548BA00F1BC3F /* SBrain */;
-			targetProxy = 98CB8250233548BB00F1BC3F /* PBXContainerItemProxy */;
+			targetProxy = 9889BA6B236D0B4F00F9FBA7 /* PBXContainerItemProxy */;
+		};
+		9889BA73236D0B4F00F9FBA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9889BA5E236D0B4E00F9FBA7 /* SBrainKit */;
+			targetProxy = 9889BA72236D0B4F00F9FBA7 /* PBXContainerItemProxy */;
+		};
+		9889BAAF236D0E0600F9FBA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9889BAA3236D0E0500F9FBA7 /* SBrain_iOS */;
+			targetProxy = 9889BAAE236D0E0600F9FBA7 /* PBXContainerItemProxy */;
+		};
+		9889BAB1236D0E0600F9FBA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98CB822F233548BA00F1BC3F /* SBrain */;
+			targetProxy = 9889BAB0236D0E0600F9FBA7 /* PBXContainerItemProxy */;
+		};
+		9889BAB8236D0E0600F9FBA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9889BAA3236D0E0500F9FBA7 /* SBrain_iOS */;
+			targetProxy = 9889BAB7236D0E0600F9FBA7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		98CB8237233548BA00F1BC3F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				98CB8238233548BA00F1BC3F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		98CB823C233548BB00F1BC3F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -425,6 +738,214 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9889BA77236D0B4F00F9FBA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6607F0C2C6FE9B8E8410E456 /* Pods-SBrainKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SBrainKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbrainproject.SBrainKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9889BA78236D0B4F00F9FBA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AFD8946CBBCB5A3A32F2CF2 /* Pods-SBrainKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SBrainKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbrainproject.SBrainKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9889BA7B236D0B4F00F9FBA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SBrainKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbrainproject.SBrainKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecondBrain.app/SecondBrain";
+			};
+			name = Debug;
+		};
+		9889BA7C236D0B4F00F9FBA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SBrainKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbrainproject.SBrainKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecondBrain.app/SecondBrain";
+			};
+			name = Release;
+		};
+		9889BABC236D0E0600F9FBA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 614D22EC63D2CE1AB300E4CD /* Pods-SBrain_iOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SBrain_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sbrainproject.SBrain-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9889BABD236D0E0600F9FBA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04208474DB7F350765E768DE /* Pods-SBrain_iOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SBrain_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sbrainproject.SBrain-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9889BABF236D0E0600F9FBA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SBrain_iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sbrainproject.SBrain-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecondBrain.app/SecondBrain";
+			};
+			name = Debug;
+		};
+		9889BAC0236D0E0600F9FBA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SBrain_iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sbrainproject.SBrain-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecondBrain.app/SecondBrain";
+			};
+			name = Release;
+		};
 		98CB8256233548BB00F1BC3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -545,6 +1066,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8DBDFF6510CAC57BE7CD812 /* Pods-SBrain.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SBrain/Info.plist;
@@ -553,7 +1075,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sbrainproject.SBrain;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SecondBrain;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -563,6 +1085,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 57E01B796A4C691E027C73A5 /* Pods-SBrain.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SBrain/Info.plist;
@@ -571,97 +1094,51 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sbrainproject.SBrain;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SecondBrain;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		98CB825C233548BB00F1BC3F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6639526A8B619887509662CF /* Pods-SBrainTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SBrainTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sbrainproject.SBrainTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SBrain.app/SBrain";
-			};
-			name = Debug;
-		};
-		98CB825D233548BB00F1BC3F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80155823A6CA02CBC2C2F31C /* Pods-SBrainTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SBrainTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sbrainproject.SBrainTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SBrain.app/SBrain";
-			};
-			name = Release;
-		};
-		98CB825F233548BB00F1BC3F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7098BDD54ED53C0A4C9D7C5A /* Pods-SBrainUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SBrainUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sbrainproject.SBrainUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SBrain;
-			};
-			name = Debug;
-		};
-		98CB8260233548BB00F1BC3F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 972624B3CE39DADB28EB467C /* Pods-SBrainUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SBrainUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sbrainproject.SBrainUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SBrain;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9889BA76236D0B4F00F9FBA7 /* Build configuration list for PBXNativeTarget "SBrainKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9889BA77236D0B4F00F9FBA7 /* Debug */,
+				9889BA78236D0B4F00F9FBA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9889BA7A236D0B4F00F9FBA7 /* Build configuration list for PBXNativeTarget "SBrainKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9889BA7B236D0B4F00F9FBA7 /* Debug */,
+				9889BA7C236D0B4F00F9FBA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9889BABB236D0E0600F9FBA7 /* Build configuration list for PBXNativeTarget "SBrain_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9889BABC236D0E0600F9FBA7 /* Debug */,
+				9889BABD236D0E0600F9FBA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9889BABE236D0E0600F9FBA7 /* Build configuration list for PBXNativeTarget "SBrain_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9889BABF236D0E0600F9FBA7 /* Debug */,
+				9889BAC0236D0E0600F9FBA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		98CB822B233548BA00F1BC3F /* Build configuration list for PBXProject "SBrain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -676,24 +1153,6 @@
 			buildConfigurations = (
 				98CB8259233548BB00F1BC3F /* Debug */,
 				98CB825A233548BB00F1BC3F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		98CB825B233548BB00F1BC3F /* Build configuration list for PBXNativeTarget "SBrainTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				98CB825C233548BB00F1BC3F /* Debug */,
-				98CB825D233548BB00F1BC3F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		98CB825E233548BB00F1BC3F /* Build configuration list for PBXNativeTarget "SBrainUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				98CB825F233548BB00F1BC3F /* Debug */,
-				98CB8260233548BB00F1BC3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

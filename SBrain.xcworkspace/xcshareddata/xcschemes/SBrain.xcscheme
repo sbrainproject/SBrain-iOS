@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1120"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "98CB822F233548BA00F1BC3F"
+               BuildableName = "SecondBrain.app"
+               BlueprintName = "SBrain"
+               ReferencedContainer = "container:SBrain.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "YES">
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "98CB822F233548BA00F1BC3F"
+            BuildableName = "SecondBrain.app"
+            BlueprintName = "SBrain"
+            ReferencedContainer = "container:SBrain.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9889BA5E236D0B4E00F9FBA7"
+            BuildableName = "SBrainKit.framework"
+            BlueprintName = "SBrainKit"
+            ReferencedContainer = "container:SBrain.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9889BAA3236D0E0500F9FBA7"
+            BuildableName = "SBrain_iOS.framework"
+            BlueprintName = "SBrain_iOS"
+            ReferencedContainer = "container:SBrain.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9889BA66236D0B4F00F9FBA7"
+               BuildableName = "SBrainKitTests.xctest"
+               BlueprintName = "SBrainKitTests"
+               ReferencedContainer = "container:SBrain.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9889BAAB236D0E0600F9FBA7"
+               BuildableName = "SBrain_iOSTests.xctest"
+               BlueprintName = "SBrain_iOSTests"
+               ReferencedContainer = "container:SBrain.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "98CB822F233548BA00F1BC3F"
+            BuildableName = "SecondBrain.app"
+            BlueprintName = "SBrain"
+            ReferencedContainer = "container:SBrain.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "98CB822F233548BA00F1BC3F"
+            BuildableName = "SecondBrain.app"
+            BlueprintName = "SBrain"
+            ReferencedContainer = "container:SBrain.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
