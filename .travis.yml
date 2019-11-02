@@ -5,6 +5,6 @@ install:
   - bundle install
   - pod install
 script:
-  - fastlane test
+  - bundle exec fastlane test
 rvm:
   - 2.3.3
