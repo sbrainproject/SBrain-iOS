@@ -3,6 +3,8 @@ language: objective-c
 osx_image: xcode11.4
 install:
   - rvm use 2.3.3 --install
+  - gem update --system
+  - bundle update --bundler
   - bundle update
   - bundle install
   - bundle exec pod install
