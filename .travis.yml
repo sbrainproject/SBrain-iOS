@@ -1,11 +1,11 @@
 os: osx
 language: objective-c
-osx_image: xcode11.2
+osx_image: xcode11.4
 install:
-  - bundle update
-  - bundle install
-  - bundle exec pod install
+  - rvm use 2.7.1 --install --binary --fuzzy
+  - bundler install
+  - bundler exec pod install
 script:
-  - bundle exec fastlane test
+  - bundler exec fastlane test
 rvm:
-  - 2.3.3
+  - 2.7.1
