@@ -16,5 +16,5 @@ jobs:
       run: bundler install
     - name: Install pod dependencies
       run: bundler exec pod install
-    -name: Run fastlane test
+    - name: Run fastlane test
       run: bundler exec fastlane test
