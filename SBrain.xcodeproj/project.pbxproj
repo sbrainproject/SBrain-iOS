@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0769D41909F84D1D6CA5EB03 /* Pods_SBrain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CA7389749A4C934650596F /* Pods_SBrain.framework */; };
 		985945D0236DF3AC0095EEC8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985945CF236DF3AC0095EEC8 /* RootViewController.swift */; };
 		9889BA68236D0B4F00F9FBA7 /* SBrainKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9889BA5F236D0B4E00F9FBA7 /* SBrainKit.framework */; };
 		9889BA71236D0B4F00F9FBA7 /* SBrainKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9889BA61236D0B4F00F9FBA7 /* SBrainKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,8 +26,6 @@
 		98CB8234233548BA00F1BC3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB8233233548BA00F1BC3F /* AppDelegate.swift */; };
 		98CB823B233548BB00F1BC3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98CB823A233548BB00F1BC3F /* Assets.xcassets */; };
 		98CB823E233548BB00F1BC3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98CB823C233548BB00F1BC3F /* LaunchScreen.storyboard */; };
-		F4A7543A97AFC868767336F2 /* Pods_SBrainKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC71A2BD99D3BA9911372439 /* Pods_SBrainKit.framework */; };
-		F95A8683A1AF96935E1A83E2 /* Pods_SBrain_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528391B1008F120C295BBF6D /* Pods_SBrain_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,15 +89,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		04208474DB7F350765E768DE /* Pods-SBrain_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBrain_iOS.release.xcconfig"; path = "Target Support Files/Pods-SBrain_iOS/Pods-SBrain_iOS.release.xcconfig"; sourceTree = "<group>"; };
-		528391B1008F120C295BBF6D /* Pods_SBrain_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SBrain_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		57E01B796A4C691E027C73A5 /* Pods-SBrain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBrain.release.xcconfig"; path = "Target Support Files/Pods-SBrain/Pods-SBrain.release.xcconfig"; sourceTree = "<group>"; };
-		614D22EC63D2CE1AB300E4CD /* Pods-SBrain_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBrain_iOS.debug.xcconfig"; path = "Target Support Files/Pods-SBrain_iOS/Pods-SBrain_iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		6607F0C2C6FE9B8E8410E456 /* Pods-SBrainKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBrainKit.debug.xcconfig"; path = "Target Support Files/Pods-SBrainKit/Pods-SBrainKit.debug.xcconfig"; sourceTree = "<group>"; };
-		6639526A8B619887509662CF /* Pods-SBrainTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBrainTests.debug.xcconfig"; path = "Target Support Files/Pods-SBrainTests/Pods-SBrainTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7098BDD54ED53C0A4C9D7C5A /* Pods-SBrainUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBrainUITests.debug.xcconfig"; path = "Target Support Files/Pods-SBrainUITests/Pods-SBrainUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		80155823A6CA02CBC2C2F31C /* Pods-SBrainTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBrainTests.release.xcconfig"; path = "Target Support Files/Pods-SBrainTests/Pods-SBrainTests.release.xcconfig"; sourceTree = "<group>"; };
-		972624B3CE39DADB28EB467C /* Pods-SBrainUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBrainUITests.release.xcconfig"; path = "Target Support Files/Pods-SBrainUITests/Pods-SBrainUITests.release.xcconfig"; sourceTree = "<group>"; };
 		985945CF236DF3AC0095EEC8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		9889BA5F236D0B4E00F9FBA7 /* SBrainKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SBrainKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9889BA61236D0B4F00F9FBA7 /* SBrainKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBrainKit.h; sourceTree = "<group>"; };
@@ -124,12 +112,6 @@
 		98CB823A233548BB00F1BC3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98CB823D233548BB00F1BC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98CB823F233548BB00F1BC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9AFD8946CBBCB5A3A32F2CF2 /* Pods-SBrainKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBrainKit.release.xcconfig"; path = "Target Support Files/Pods-SBrainKit/Pods-SBrainKit.release.xcconfig"; sourceTree = "<group>"; };
-		AF0520AECE63DA62A84DE4A7 /* Pods_SBrainUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SBrainUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAA7F44021B864138FB671B1 /* Pods_SBrainTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SBrainTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC71A2BD99D3BA9911372439 /* Pods_SBrainKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SBrainKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3CA7389749A4C934650596F /* Pods_SBrain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SBrain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8DBDFF6510CAC57BE7CD812 /* Pods-SBrain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBrain.debug.xcconfig"; path = "Target Support Files/Pods-SBrain/Pods-SBrain.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +119,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4A7543A97AFC868767336F2 /* Pods_SBrainKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +134,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F95A8683A1AF96935E1A83E2 /* Pods_SBrain_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,7 +150,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9889BA74236D0B4F00F9FBA7 /* SBrainKit.framework in Frameworks */,
-				0769D41909F84D1D6CA5EB03 /* Pods_SBrain.framework in Frameworks */,
 				9889BAB9236D0E0600F9FBA7 /* SBrain_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,16 +160,6 @@
 		43BBAEC855C89ECAC083953F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F8DBDFF6510CAC57BE7CD812 /* Pods-SBrain.debug.xcconfig */,
-				57E01B796A4C691E027C73A5 /* Pods-SBrain.release.xcconfig */,
-				6639526A8B619887509662CF /* Pods-SBrainTests.debug.xcconfig */,
-				80155823A6CA02CBC2C2F31C /* Pods-SBrainTests.release.xcconfig */,
-				7098BDD54ED53C0A4C9D7C5A /* Pods-SBrainUITests.debug.xcconfig */,
-				972624B3CE39DADB28EB467C /* Pods-SBrainUITests.release.xcconfig */,
-				6607F0C2C6FE9B8E8410E456 /* Pods-SBrainKit.debug.xcconfig */,
-				9AFD8946CBBCB5A3A32F2CF2 /* Pods-SBrainKit.release.xcconfig */,
-				614D22EC63D2CE1AB300E4CD /* Pods-SBrain_iOS.debug.xcconfig */,
-				04208474DB7F350765E768DE /* Pods-SBrain_iOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -287,7 +256,6 @@
 				9889BA6D236D0B4F00F9FBA7 /* SBrainKitTests */,
 				98CB8231233548BA00F1BC3F /* Products */,
 				43BBAEC855C89ECAC083953F /* Pods */,
-				D212D138E22B890AF70DED2E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -312,18 +280,6 @@
 				98CB823F233548BB00F1BC3F /* Info.plist */,
 			);
 			path = SBrain;
-			sourceTree = "<group>";
-		};
-		D212D138E22B890AF70DED2E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E3CA7389749A4C934650596F /* Pods_SBrain.framework */,
-				CAA7F44021B864138FB671B1 /* Pods_SBrainTests.framework */,
-				AF0520AECE63DA62A84DE4A7 /* Pods_SBrainUITests.framework */,
-				DC71A2BD99D3BA9911372439 /* Pods_SBrainKit.framework */,
-				528391B1008F120C295BBF6D /* Pods_SBrain_iOS.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,7 +308,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9889BA76236D0B4F00F9FBA7 /* Build configuration list for PBXNativeTarget "SBrainKit" */;
 			buildPhases = (
-				B3D8625A0646B5D1972A78D4 /* [CP] Check Pods Manifest.lock */,
 				9889BA5A236D0B4E00F9FBA7 /* Headers */,
 				9889BA5B236D0B4E00F9FBA7 /* Sources */,
 				9889BA5C236D0B4E00F9FBA7 /* Frameworks */,
@@ -390,7 +345,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9889BABB236D0E0600F9FBA7 /* Build configuration list for PBXNativeTarget "SBrain_iOS" */;
 			buildPhases = (
-				6C492BB8C63213B6BA683C9D /* [CP] Check Pods Manifest.lock */,
 				9889BA9F236D0E0500F9FBA7 /* Headers */,
 				9889BAA0236D0E0500F9FBA7 /* Sources */,
 				9889BAA1236D0E0500F9FBA7 /* Frameworks */,
@@ -428,11 +382,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98CB8258233548BB00F1BC3F /* Build configuration list for PBXNativeTarget "SBrain" */;
 			buildPhases = (
-				A01359E1C615CF4A92D79656 /* [CP] Check Pods Manifest.lock */,
 				98CB822C233548BA00F1BC3F /* Sources */,
 				98CB822D233548BA00F1BC3F /* Frameworks */,
 				98CB822E233548BA00F1BC3F /* Resources */,
-				AED1C78EA3857BD13EE61654 /* [CP] Embed Pods Frameworks */,
 				9889BA79236D0B4F00F9FBA7 /* Embed Frameworks */,
 				9889BAC9236D11A300F9FBA7 /* SwiftLint */,
 			);
@@ -543,28 +495,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6C492BB8C63213B6BA683C9D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SBrain_iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9889BAC9236D11A300F9FBA7 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -582,67 +512,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
-		};
-		A01359E1C615CF4A92D79656 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SBrain-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AED1C78EA3857BD13EE61654 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SBrain/Pods-SBrain-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SBrain/Pods-SBrain-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SBrain/Pods-SBrain-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B3D8625A0646B5D1972A78D4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SBrainKit-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -740,7 +609,6 @@
 /* Begin XCBuildConfiguration section */
 		9889BA77236D0B4F00F9FBA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6607F0C2C6FE9B8E8410E456 /* Pods-SBrainKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -770,7 +638,6 @@
 		};
 		9889BA78236D0B4F00F9FBA7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AFD8946CBBCB5A3A32F2CF2 /* Pods-SBrainKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -842,7 +709,6 @@
 		};
 		9889BABC236D0E0600F9FBA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 614D22EC63D2CE1AB300E4CD /* Pods-SBrain_iOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -872,7 +738,6 @@
 		};
 		9889BABD236D0E0600F9FBA7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04208474DB7F350765E768DE /* Pods-SBrain_iOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1064,7 +929,6 @@
 		};
 		98CB8259233548BB00F1BC3F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8DBDFF6510CAC57BE7CD812 /* Pods-SBrain.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1083,7 +947,6 @@
 		};
 		98CB825A233548BB00F1BC3F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57E01B796A4C691E027C73A5 /* Pods-SBrain.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
