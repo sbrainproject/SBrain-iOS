@@ -9,13 +9,15 @@ end
 
 desc "Runs all the tests"
 lane :test do
+  reset_simulators()
   scan(
     workspace:"SBrain.xcworkspace",
-    scheme: "SBrain"
+    scheme: "SBrain",
+    devices: TEST_SIMULATORS
   )
   xcov(
-    workspace: "SBrain.xcworkspace",
-    scheme: "SBrain",
+    workspace: SCHEME + ".xcworkspace",
+    scheme: SCHEME,
     minimum_coverage_percentage: 60.0,
     output_directory: "xcov_output"
   )
